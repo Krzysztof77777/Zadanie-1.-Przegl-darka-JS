@@ -1,0 +1,25 @@
+body > h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+body > button {
+    display:block;
+    margin: 0 auto;
+}
+
+.generatedNumbers {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top:30px;
+}
+
+.generatedNumbers__even > h2, .generatedNumbers__odd > h2 {
+    text-align: center;
+}
+
+.odd__numbers, .even__numbers {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
